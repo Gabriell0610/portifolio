@@ -1,0 +1,28 @@
+@import './_partials/color';
+@import './_partials/layout';
+@import './_partials/mediaQuery';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: $bege-decoration;
+    overflow-x: hidden;
+}
+
+
+a,
+li {
+    text-decoration: none;
+    list-style: none;
+    color: $black;
+}
+
+img {
+    width: 100%
+}
+
+

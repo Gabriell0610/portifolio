@@ -1,0 +1,363 @@
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .content {
+        max-width: 300px;
+        margin: 0 auto;
+        padding: 2rem 1rem;
+
+        h3 {
+            font-size: 1rem;
+            margin-left: 0;
+        }
+
+        .name-icons {
+            
+            .icons {
+                display: none;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+                margin-left: 0;
+            }
+
+        }
+
+        h1 {
+            font-size: 1.4rem;
+            margin-left: 2px;
+        }
+    }
+
+    #sobre {
+
+        h2 {
+            padding: 0;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .container {
+            flex-direction: column-reverse;
+            justify-content: center;
+            
+            .descricao {
+                padding: 0;
+                text-align: center;
+
+                span {
+                   margin-left: 0;
+                }
+            }
+
+            .image img  {
+                width: 100%;
+            }
+        }
+
+        #skills {
+
+            .container-card {
+                flex-direction: column;
+
+                .skills-container {
+                    grid-template-columns: repeat(2, 1fr)
+                }
+            }
+        }
+    }
+
+    #projetos {
+
+        .title-sections {
+            text-align: center;
+            padding: 0;
+        }
+
+        .container-projeto {
+            grid-template-columns: 1fr;
+
+            .title-projeto {
+                font-size: 1.1rem;
+            }
+        }
+    }
+
+    #contato {
+
+        .container-contato  {
+            padding: 2rem;
+
+            h2{
+                font-size: 1.2rem;
+            }
+            .email {
+                width: 100%;
+                font-size: .8rem;
+            }
+
+            button {
+                width: 100%;
+                font-size: 0.9rem;
+            }
+
+            .copy {
+                padding: 1rem;
+            }
+        }
+
+    }     
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    .content {
+       max-width: 600px;
+       margin: 0 auto;
+       padding: 2rem 1rem;
+
+        .name-icons {
+            
+            gap: 10px;
+
+            h2 {
+                font-size: 2rem;
+                margin-left: 0;
+            }
+
+            .icons {
+                font-size: 1.7rem;
+            }
+        }
+
+        h1 {
+            font-size: 2.3rem;
+        }
+    }
+
+    
+    #sobre {
+
+        h2 {
+            padding: 0;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .container {
+            flex-direction: column-reverse;
+            justify-content: center;
+            
+            .descricao {
+                padding: 0;
+                text-align: center;
+
+                span {
+                   margin-left: 0;
+                }
+            }
+
+            .image {
+                text-align: center;
+
+                img {
+                    width: 350px;
+                }
+            }
+        }
+
+        #skills {
+
+            .container-card {
+                flex-direction: column;
+
+                .skills-container {
+                    grid-template-columns: repeat(3, 1fr)
+                }
+            }
+        }
+    }
+
+    #projetos {
+
+        .title-sections {
+            text-align: center;
+            padding: 0;
+        }
+
+        .container-projeto {
+            grid-template-columns: 1fr;
+
+            .title-projeto {
+                font-size: 1.1rem;
+            }
+        }
+    }
+
+    #contato {
+
+        .container-contato  {
+            padding: 2rem;
+
+            h2{
+                font-size: 1.2rem;
+            }
+            .email {
+                width: 100%;
+                font-size: .8rem;
+            }
+
+            button {
+                width: 100%;
+                font-size: 0.9rem;
+            }
+
+        }
+
+        .copy {
+            padding: 0 2rem;
+        }
+    }
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .content {
+        max-width: 600px;
+        margin: 0 auto;
+
+        .name-icons {
+            
+            gap: 10px;
+
+            h2 {
+                font-size: 2.4rem;
+                margin-left: 0;
+            }
+
+            .icons {
+                font-size: 2rem;
+            }
+        }
+
+        h1 {
+            font-size: 3.1rem;
+        }
+    }
+
+    
+    #sobre {
+
+        h2 {
+            padding: 0;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .container {
+            flex-direction: column-reverse;
+            justify-content: center;
+            
+            .descricao {
+                padding: 0;
+                text-align: center;
+
+                span {
+                   margin-left: 0;
+                }
+            }
+
+            .image {
+                text-align: center;
+
+                img {
+                    width: 350px;
+                }
+            }
+        }
+
+        #skills {
+
+            .container-card {
+                flex-direction: column;
+
+                .skills-container {
+                    grid-template-columns: repeat(3, 1fr)
+                }
+            }
+        }
+    }
+
+    #projetos {
+
+        .title-sections {
+            text-align: center;
+            padding: 0;
+        }
+
+        .container-projeto {
+            grid-template-columns: 1fr;
+
+            .title-projeto {
+                font-size: 1.1rem;
+            }
+        }
+    }
+
+    #contato {
+
+        .container-contato  {
+            padding: 2rem;
+
+            h2{
+                font-size: 1.2rem;
+            }
+            .email {
+                width: 100%;
+                font-size: .8rem;
+            }
+
+            button {
+                width: 100%;
+                font-size: 0.9rem;
+            }
+
+        }
+
+        .copy {
+            padding: 0 2rem;
+        }
+    }
+}
+
+
+
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .content {
+        max-width: 850px;
+        margin: 0 auto;
+
+        h3 {
+            margin-bottom: 0;
+        }
+
+        .name-icons {
+            
+            gap: 10px;
+
+            h2 {
+                font-size: 3rem;
+                margin-left: 0;
+            }
+
+            .icons {
+                font-size: 2.5rem;
+            }
+        }
+
+        h1 {
+            font-size: 4.2rem;
+        }
+    }
+
+}
