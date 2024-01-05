@@ -80,6 +80,7 @@
 }
 .container .descricao {
   padding: 2rem;
+  margin-top: 1rem;
 }
 .container .descricao h2 {
   margin-bottom: 1.2rem;
@@ -93,7 +94,9 @@
   margin-left: 2rem;
 }
 .container .image img {
-  width: 300px;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
 }
 .container .icons-social {
   display: flex;
